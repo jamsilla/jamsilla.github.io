@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="mainDiv">
+    <div id="headerDiv" align="center">
+        <h1 id="headerText">TIC-TAC-TOE</h1>
+    </div>
+    <br>
+    <div style="display: flex;">
+        <div id="scoreDiv">
+        <h1>Wins: </h1>
+        <h2 id="xScore">X: 0</h2>
+        <h2 id="oScore">O: 0</h2>
+        <button id="resetWinsButton">Reset</button>
+    </div>
+        <div id="gameOutsideDiv">
+            <div id="gameInsideDiv">
+                <button id = "button1" class="gameButton"> </button>
+                <button id = "button2" class="gameButton"> </button>
+                <button id = "button3" class="gameButton"> </button>
+                <button id = "button4" class="gameButton"> </button>
+                <button id = "button5" class="gameButton"> </button>
+                <button id = "button6" class="gameButton"> </button>
+                <button id = "button7" class="gameButton"> </button>
+                <button id = "button8" class="gameButton"> </button>
+                <button id = "button9" class="gameButton"> </button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="settingsDiv" style="display: flex;">
+        <button id="resetBoardButton">Reset Board</button>
+        <div id="gamemodeDiv">
+            <button id="pvpButton">Player v. Player</button>
+            <button id="pveButton">Player v. Computer</button>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

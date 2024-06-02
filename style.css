@@ -1,0 +1,101 @@
+#gameOutsideDiv {
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+#mainDiv {
+    background-color: LightSkyBlue;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headerDiv {
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+#gameInsideDiv {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8px;
+}
+
+#scoreDiv {
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-family: cursive;
+    width: 30%;
+    margin-right: 20px;
+}
+
+#gamemodeDiv{
+    width: 60%;
+}
+
+#settingsDiv{
+    display: flex;
+    align-items: center;
+}
+
+#headerText {
+    font-family: cursive;
+    font-size: 40px;
+}
+
+#resetWinsButton{
+    font-family: cursive;
+    background-color: gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#resetBoardButton{
+    font-family: cursive;
+    background-color: gray;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 40%;
+    margin-right: 20px;
+}
+
+#pvpButton{
+    font-family: cursive;
+    background-color: gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#pveButton{
+    font-family: cursive;
+    background-color: gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.gameButton {
+    font-weight: bold;
+    width: 60px;
+    height: 60px;
+    font-size: 45px;
+    font-family: cursive;
+    line-height: 50px;
+    background-color: white;
+    border: none;
+}
