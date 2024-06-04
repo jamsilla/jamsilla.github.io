@@ -46,13 +46,16 @@
     margin-right: 20px;
 }
 
-#gamemodeDiv{
-    width: 60%;
-}
 
 #settingsDiv{
-    display: flex;
     align-items: center;
+}
+
+#difficultyDiv{
+    padding: 15px;
+    background-color: gray;
+    border-radius: 5px;
+    border: 2px solid black;
 }
 
 #headerText {
@@ -70,9 +73,7 @@
     font-family: cursive;
     background-color: gray;
     border-radius: 5px;
-    font-size: 15px;
-    width: 40%;
-    margin-right: 20px;
+    font-size: 20px;
 }
 
 #pvpButton{
@@ -83,6 +84,13 @@
 }
 
 #pveButton{
+    font-family: cursive;
+    background-color: gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.difficultyButton{
     font-family: cursive;
     background-color: gray;
     border-radius: 5px;
